@@ -1,0 +1,19 @@
+{
+    "name": "victorwesterlund/php-age",
+    "description": "Abstraction library for common mysqli features",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Victor Westerlund",
+            "email": "victor.vesterlund@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Age\\": "src/"
+        }
+    },
+    "require": {}
+}
