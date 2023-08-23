@@ -1,6 +1,6 @@
 {
     "name": "victorwesterlund/php-age",
-    "description": "Abstraction library for common mysqli features",
+    "description": "PHP wrapper for the age file encryption command line tool",
     "type": "library",
     "license": "GPL-3.0-only",
     "authors": [
