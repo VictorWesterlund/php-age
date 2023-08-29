@@ -153,7 +153,7 @@
 			$encrypt = $this->exec(ShellCommands::AGE, $cmd);
 
 			if (!is_null($encrypt)) {
-				throw new \Exception("Failed to encrypt '{$this->input}' using public key '{$this->public_key}'");
+				throw new \Exception("Failed to encrypt '{$this->input}' to '{$output}' using public key '{$this->public_key}'");
 			}
 
 			// Return keypair
